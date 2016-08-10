@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+      <h1>Survey</h1>
+      </div>
+      <div id="blanks">
+        <form>
+          <divd class="row">
+          <div class="col-md-6">
+          <div class="form-group">
+            <label for="name">1.Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="born">2.Your Date of Birth:</label>
+            <input id="born" class="name-group" type="date">
+          </div>
+        </div>
+      </div>
+          <div class="form-group">
+            <label for="drink">3.Favorite drink</label>
+            <input id="drink" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animal">4.Favorite animal</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="color">5.Favorite color</label>
+            <input id="color" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="song">6.Favorite song</label>
+            <input id="song" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="sport">7.Favorite sport</label>
+            <input id="sport" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div id="results">
+        <h1>Your Survey Results!!</h1>
+        <ol>
+          <li><span class="name"></span></li>
+          <li><span class="born"></span></li>
+          <li><span class="drink"></span></li>
+          <li><span class="animal"></span></li>
+          <li><span class="color"></span></li>
+          <li><span class="song"></span></li>
+          <li><span class="sport"></span></li>
+        </ol>
+      </div>
+    </div>
+
+
+  </body>
+</html>
